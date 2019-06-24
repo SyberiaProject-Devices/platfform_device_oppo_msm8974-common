@@ -12,7 +12,6 @@ vendor.audio_hal.period_size=192
 vendor.audio.offload.buffer.size.kb=32
 vendor.audio.offload.gapless.enabled=true
 vendor.audio.offload.multiple.enabled=false
-
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=7
 
@@ -20,7 +19,6 @@ ro.config.vc_call_vol_steps=7
 vendor.qcom.bluetooth.soc=pronto
 ro.bluetooth.hfp.ver=1.7
 ro.qualcomm.bt.hci_transport=smd
-
 ro.bluetooth.dun=false
 ro.bluetooth.sap=false
 
@@ -35,8 +33,6 @@ camera2.portability.force_api=1
 dalvik.vm.checkjni=false
 dalvik.vm.dex2oat-threads=4
 dalvik.vm.image-dex2oat-threads=4
-dalvik.vm.verify-bytecode=false
-persist.sys.purgeable_assets=1
 
 # Display
 debug.hwui.use_buffer_age=false
@@ -60,10 +56,6 @@ dhcp.eth0.dns1=1.1.1.1
 dhcp.eth0.dns2=1.0.0.1
 dhcp.wlan0.dns1=1.1.1.1
 dhcp.wlan0.dns2=1.0.0.1
-
-# Fling velocities
-ro.min.fling_velocity=160
-ro.max.fling_velocity=20000
 
 # HWUI
 debug.hwui.renderer=opengl
@@ -94,9 +86,7 @@ ro.com.google.clientidbase.yt=android-oneplus
 # Radio
 ro.telephony.call_ring.multiple=0
 ro.telephony.default_network=9
-
 ro.use_data_netmgrd=true
-
 telephony.lteOnGsmDevice=1
 
 # Time services
