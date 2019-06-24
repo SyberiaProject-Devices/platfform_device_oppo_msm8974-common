@@ -74,6 +74,9 @@ PRODUCT_PACKAGES += \
 # Data
 PRODUCT_PACKAGES += \
     librmnetctl
+    
+# Dalvik
+$(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
 
 # DRM
 PRODUCT_PACKAGES += \
