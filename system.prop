@@ -33,6 +33,8 @@ camera2.portability.force_api=1
 dalvik.vm.checkjni=false
 dalvik.vm.dex2oat-threads=4
 dalvik.vm.image-dex2oat-threads=4
+dalvik.vm.dex2oat-filter=quicken
+dalvik.vm.image-dex2oat-filter=speed
 
 # Display
 debug.hwui.use_buffer_age=false
@@ -82,6 +84,10 @@ ro.com.google.clientidbase.am=android-oneplus
 ro.com.google.clientidbase.gmm=android-oneplus
 ro.com.google.clientidbase.ms=android-oneplus
 ro.com.google.clientidbase.yt=android-oneplus
+
+# Package manager options
+pm.dexopt.install=quicken
+pm.dexopt.boot=verify
 
 # Radio
 ro.telephony.call_ring.multiple=0
